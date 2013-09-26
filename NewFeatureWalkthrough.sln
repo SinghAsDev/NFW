@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewFeatureWalkthrough", "NewFeatureWalkthrough\NewFeatureWalkthrough.csproj", "{CBE82C8B-5CF0-4A45-8AA7-E28BCACF777C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NFW", "NFW\NFW.csproj", "{8F0BF128-101A-43C6-9A6D-84057EF424BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBE82C8B-5CF0-4A45-8AA7-E28BCACF777C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBE82C8B-5CF0-4A45-8AA7-E28BCACF777C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBE82C8B-5CF0-4A45-8AA7-E28BCACF777C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBE82C8B-5CF0-4A45-8AA7-E28BCACF777C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F0BF128-101A-43C6-9A6D-84057EF424BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F0BF128-101A-43C6-9A6D-84057EF424BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F0BF128-101A-43C6-9A6D-84057EF424BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F0BF128-101A-43C6-9A6D-84057EF424BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

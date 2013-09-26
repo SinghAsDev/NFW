@@ -1,0 +1,12 @@
+﻿<Window x:Name="NfwDialog" x:Class="NFW.View.NfwWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Height="550" Width="525" Background="#FFE8E8EC" WindowStyle="None" ResizeMode="NoResize" SizeToContent="WidthAndHeight" Topmost="True" WindowStartupLocation="CenterOwner" VerticalAlignment="Bottom">
+    <Grid x:Name="m_WinNfw">
+        <ContentControl x:Name="m_contentPage" Content="ContentControl" HorizontalAlignment="Left" Width="505" Margin="10,10,10,55" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"/>
+        <DockPanel x:Name="m_panelControls" VerticalAlignment="Bottom" Height="40" Margin="10,0,10,10">
+            <Button x:Name="m_btnPrev" Content="Prev" Width="60" Click="m_btnPrev_Click"/>
+            <CheckBox x:Name="m_chkBoxDoNotShowAgain" Content="Do not show this message again" Height="22" VerticalAlignment="Top" Width="198" Margin="10,6,0,-1"/>
+            <Button x:Name="m_btnNext" Content="Next" Width="60" HorizontalAlignment="Right" Click="m_btnNext_Click"/>
+        </DockPanel>
+    </Grid>
+</Window>
